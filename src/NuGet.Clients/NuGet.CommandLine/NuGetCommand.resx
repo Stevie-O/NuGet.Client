@@ -281,8 +281,14 @@ nuget list -verbose -allversions</value>
   <data name="PackageCommandOutputDirDescription" xml:space="preserve">
     <value>Specifies the directory for the created NuGet package file. If not specified, uses the current directory.</value>
   </data>
+  <data name="PackageCommandPackagesDirectory" xml:space="preserve">
+    <value>Specifies the packages folder.</value>
+  </data>
   <data name="PackageCommandPropertiesDescription" xml:space="preserve">
     <value>Provides the ability to specify a semicolon ";" delimited list of properties when creating a package.</value>
+  </data>
+  <data name="PackageCommandSolutionDirectory" xml:space="preserve">
+    <value>Specifies the solution directory.</value>
   </data>
   <data name="PackageCommandSymbolsDescription" xml:space="preserve">
     <value>Determines if a package containing sources and symbols should be created. When specified with a nuspec, creates a regular NuGet package file and the corresponding symbols package.</value>
@@ -5482,5 +5488,83 @@ This option should be used when specifying the certificate via -CertificateSubje
   <data name="PackageCommandSymbolPackageFormat" xml:space="preserve">
     <value>When creating a symbols package, allows to choose between the 'snupkg' and 'symbols.nupkg' format.</value>
     <comment>Do not localize snupkg and symbols.nupkg</comment>
+  </data>
+  <data name="PackageCommandPackagesDirectory_csy" xml:space="preserve">
+    <value>Určuje složku balíčků.</value>
+  </data>
+  <data name="PackageCommandPackagesDirectory_deu" xml:space="preserve">
+    <value>Gibt den Paketordner an.</value>
+  </data>
+  <data name="PackageCommandPackagesDirectory_esp" xml:space="preserve">
+    <value>Especifica la carpeta de los paquetes.</value>
+  </data>
+  <data name="PackageCommandPackagesDirectory_fra" xml:space="preserve">
+    <value>Spécifie le dossier des packages.</value>
+  </data>
+  <data name="PackageCommandPackagesDirectory_ita" xml:space="preserve">
+    <value>Specifica la cartella pacchetto.</value>
+  </data>
+  <data name="PackageCommandPackagesDirectory_jpn" xml:space="preserve">
+    <value>パッケージ フォルダーを指定します。</value>
+  </data>
+  <data name="PackageCommandPackagesDirectory_kor" xml:space="preserve">
+    <value>패키지 폴더를 지정합니다.</value>
+  </data>
+  <data name="PackageCommandPackagesDirectory_plk" xml:space="preserve">
+    <value>Określa folder pakietów.</value>
+  </data>
+  <data name="PackageCommandPackagesDirectory_ptb" xml:space="preserve">
+    <value>Especifica a pasta de pacotes.</value>
+  </data>
+  <data name="PackageCommandPackagesDirectory_rus" xml:space="preserve">
+    <value>Указывает папку пакетов.</value>
+  </data>
+  <data name="PackageCommandPackagesDirectory_trk" xml:space="preserve">
+    <value>Paket klasörünü belirtir.</value>
+  </data>
+  <data name="PackageCommandPackagesDirectory_chs" xml:space="preserve">
+    <value>指定程序包文件夹。</value>
+  </data>
+  <data name="PackageCommandPackagesDirectory_cht" xml:space="preserve">
+    <value>指定封裝資料夾。</value>
+  </data>
+  <data name="PackageCommandSolutionDirectory_csy" xml:space="preserve">
+    <value>Určuje adresář řešení. Není platné při obnovování balíčků pro řešení.</value>
+  </data>
+  <data name="PackageCommandSolutionDirectory_deu" xml:space="preserve">
+    <value>Gibt das Projektverzeichnis an. Beim Wiederherstellen von Paketen für ein Projekt nicht gültig.</value>
+  </data>
+  <data name="PackageCommandSolutionDirectory_esp" xml:space="preserve">
+    <value>Especifica el directorio de la solución. No es válido cuando se restauran paquetes para una solución.</value>
+  </data>
+  <data name="PackageCommandSolutionDirectory_fra" xml:space="preserve">
+    <value>Spécifie le répertoire de la solution. Non valide lors de la restauration de packages pour une solution.</value>
+  </data>
+  <data name="PackageCommandSolutionDirectory_ita" xml:space="preserve">
+    <value>Specifica la soluzione della directory. Non valida quando si ripristinano pacchetti per una soluzione.</value>
+  </data>
+  <data name="PackageCommandSolutionDirectory_jpn" xml:space="preserve">
+    <value>ソリューション ディレクトリを指定します。ソリューションのパッケージを復元する場合、無効です。</value>
+  </data>
+  <data name="PackageCommandSolutionDirectory_kor" xml:space="preserve">
+    <value>솔루션 디렉터리를 지정합니다. 솔루션 패키지를 복원하는 경우 사용할 수 없습니다.</value>
+  </data>
+  <data name="PackageCommandSolutionDirectory_plk" xml:space="preserve">
+    <value>Określa katalog rozwiązania. W przypadku przywracania pakietów dla rozwiązania nie jest on obowiązujący.</value>
+  </data>
+  <data name="PackageCommandSolutionDirectory_ptb" xml:space="preserve">
+    <value>Especifica o diretório de solução. Não é válido ao restaurar pacotes para uma solução.</value>
+  </data>
+  <data name="PackageCommandSolutionDirectory_rus" xml:space="preserve">
+    <value>Указывает каталог решения. При восстановлении пакетов для решения является недопустимым.</value>
+  </data>
+  <data name="PackageCommandSolutionDirectory_trk" xml:space="preserve">
+    <value>Çözüm dizinini belirtir. Bir çözüm için paketler geri yüklenirken geçerli değildir.</value>
+  </data>
+  <data name="PackageCommandSolutionDirectory_chs" xml:space="preserve">
+    <value>指定解决方案目录。当还原解决方案的程序包时无效。</value>
+  </data>
+  <data name="PackageCommandSolutionDirectory_cht" xml:space="preserve">
+    <value>指定方案目錄。還原方案封裝時無效。</value>
   </data>
 </root>
